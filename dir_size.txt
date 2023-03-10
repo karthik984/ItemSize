@@ -1,0 +1,9 @@
+(D)FileSize =====>  0.0000 GB ||  0.0056 MB || 5555 bytes
+(D)FileSizePy =====>  0.0000 GB ||  0.0020 MB || 1974 bytes
+(D)Graphical_Calculator-master =====>  0.0001 GB ||  0.0603 MB || 60273 bytes
+(D)Graphical_Calculator-master_orig =====>  0.0001 GB ||  0.0603 MB || 60273 bytes
+(D)open_foods_data =====>  40.8558 GB ||  43868.4628 MB || 43868462802 bytes
+(f)projects.txt =====>  0.0000 GB ||  0.0004 MB || 384 bytes
+(D)recipe_search =====>  0.2208 GB ||  237.0390 MB || 237039020 bytes
+(f)temp.py =====>  0.0000 GB ||  0.0123 MB || 12326 bytes
+(f)tracker.py =====>  0.0000 GB ||  0.0123 MB || 12326 bytes

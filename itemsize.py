@@ -1,4 +1,4 @@
-import os
+import os, sys
 
 def get_directory_size(path):
     total_size = 0
@@ -10,13 +10,21 @@ def get_directory_size(path):
                 total_size += get_directory_size(entry.path)
     return total_size
 
-directory_path = "E:\hut"
-file_name = 'dir_size.txt'
+#directory_path = input("path:")
+#if directory_path == '':
+
+directory_path = os.getcwd() 
+
+if not os.path.exists(directory_path):
+    print("need a valid path to calclulate get the size")
+    sys.exit()
+
+file_name = 'item_size.txt'
 
 if os.path.exists(file_name):
     os.remove(file_name)
 
-f = open('dir_size.txt', 'w')
+f = open('item_size.txt', 'w')
 type = ''
 with os.scandir(directory_path) as it:
         for entry in it:
